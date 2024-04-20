@@ -124,7 +124,6 @@ const dictionary = [
 
 const targetWords = [
   "lemur",
-  "human",
 ]
 
 const WORD_LENGTH = 5
