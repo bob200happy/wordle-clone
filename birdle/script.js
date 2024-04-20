@@ -123,28 +123,8 @@ const dictionary = [
 ]
 
 const targetWords = [
-  "snipe",
-  "murre",
-  "eider",
-  "owlet",
-  "vireo",
-  "mynah",
-  "finch",
-  "heron",
-  "eagle",
-  "macaw",
-  "goose",
-  "crane",
-  "swift",
-  "booby",
-  "raven",
-  "grebe",
-  "quail",
-  "junco",
-  "egret",
-  "stork",
-  "robin",
-  "stilt",
+  "lemur",
+  "human",
 ]
 
 const WORD_LENGTH = 5
@@ -273,7 +253,7 @@ function submitGuess() {
   }, "")
 
   if (!targetWords.includes(guess) && !dictionary.includes(guess)) {
-    showAlert("Not in bird list")
+    showAlert("Not in monkey list")
     shakeTiles(activeTiles)
     return
   }
