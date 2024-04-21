@@ -146,6 +146,20 @@ const dictionary = [
 
 const targetWords = [
   "lemur",
+  "chimp",
+  "murad",
+  "human",
+  "monke",
+  "orang",
+  "simia",
+  "patas",
+  "diana",
+  "drill",
+  "dryas",
+  "dwarf",
+  "titis",
+  "sakis",
+  "monas",
 ]
 
 const WORD_LENGTH = 5
@@ -390,9 +404,9 @@ function createUnicodeGameTranscript() {
   console.assert(accumulator.length === 0)
 
   if (transcript.endsWith(greenSquare+greenSquare+greenSquare+greenSquare+greenSquare)) {
-    return "Birdle #" + (targetWords.indexOf(targetWord) + 1) + " " + usedRows + "/6\n" + transcript
+    return "Monkeydle #" + (targetWords.indexOf(targetWord) + 1) + " " + usedRows + "/6\n" + transcript
   } else {
-    return "Birdle #" + (targetWords.indexOf(targetWord) + 1) + " X/6\n" + transcript
+    return "Monkeydle #" + (targetWords.indexOf(targetWord) + 1) + " X/6\n" + transcript
   }
 }
 
