@@ -147,8 +147,6 @@ const dictionary = [
 const targetWords = [
   "lemur",
   "chimp",
-  "murad",
-  "human",
   "monke",
   "orang",
   "simia",
@@ -160,6 +158,7 @@ const targetWords = [
   "titis",
   "sakis",
   "monas",
+  "human",
 ]
 
 const WORD_LENGTH = 5
