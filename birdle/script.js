@@ -159,6 +159,12 @@ const targetWords = [
   "sakis",
   "monas",
   "human",
+  "doucs",
+  "swamp",
+  "loris",
+  "night",
+  "indri",
+  "potto",
 ]
 
 const WORD_LENGTH = 5
