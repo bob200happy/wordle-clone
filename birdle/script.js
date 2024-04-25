@@ -1,5 +1,5 @@
 const dictionary = [
-  // Singular bird names
+  // Weird bird names
   "buteo",
   "eyass",
   "drake",
@@ -120,6 +120,8 @@ const dictionary = [
   "birds",
   "fowls",
   "ornis",
+
+  // Regular birdle birds
   "snipe",
   "murre",
   "eider",
