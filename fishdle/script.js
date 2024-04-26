@@ -30,7 +30,8 @@ const targetWords = [
     // Random fish works
     "smolt",
     "fishy",
-
+]
+const dictionary = [
     // Plural 4 letter fish
     "chubs",
     "barbs",
@@ -46,8 +47,7 @@ const targetWords = [
     "pikes",
     "drums",
     "tangs",
-]
-const dictionary = [
+    
     // Weird bird names
     "buteo",
     "eyass",
