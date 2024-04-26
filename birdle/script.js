@@ -144,6 +144,12 @@ const dictionary = [
   "stork",
   "robin",
   "stilt",
+
+  // Plural monkeys
+  "titis",
+  "sakis",
+  "monas",
+  "doucs",
 ]
 
 const targetWords = [
@@ -157,11 +163,7 @@ const targetWords = [
   "drill",
   "dryas",
   "dwarf",
-  "titis",
-  "sakis",
-  "monas",
   "human",
-  "doucs",
   "swamp",
   "loris",
   "night",
